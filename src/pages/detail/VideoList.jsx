@@ -37,7 +37,8 @@ const VideoList = () => {
           title="Movie Video Player" // Add title here
           allowFullScreen
           // src={`https://multiembed.mov/directstream.php?video_id=${id}&tmdb=1`}
-          src={`https://v2.vidsrc.me/embed/`}
+          src={`https://v2.vidsrc.me/embed/${id}`}
+          // src={`https://nyumatflix.com/movies/watch/`}
           width="100%"
           height="100%"
           style={{
@@ -64,8 +65,10 @@ const VideoList = () => {
           <iframe
             title={`Episode Video Player - Season ${season} Episode ${episode}`} // Add title here
             allowFullScreen
-            // src={`https://multiembed.mov/directstream.php?video_id=${id}&tmdb=1&s=${season}&e=${episode}`}
-            src={`https://v2.vidsrc.me/embed/${id}`}
+            src={`https://multiembed.mov/directstream.php?video_id=${id}&tmdb=1&s=${season}&e=${episode}`}
+            // src={`https://v2.vidsrc.me/embed/${id}`}
+              //  src={`https://nyumatflix.com/movies/watch/${id}`}
+            
             width="100%"
             height="100%"
             style={{
