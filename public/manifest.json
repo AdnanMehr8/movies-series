@@ -3,7 +3,7 @@
     "name": "Motvies",
     "icons": [
       {
-        "src": "favicon.ico",
+        "src": "Motvies.png",
         "sizes": "16x16 32x32 48x48",
         "type": "image/x-icon"
       }
