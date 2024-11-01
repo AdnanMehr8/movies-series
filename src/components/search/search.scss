@@ -1,0 +1,29 @@
+// .category-selection {
+//     gap: 10px;
+// }
+// .category-selection input[type="radio"] {
+//     appearance: none; /* Remove default styling */
+//     width: 5px;      /* Set width */
+//     // height: 16px;     /* Set height */
+//     border: 2px solid black; /* Set border color */
+//     // border-radius: 50%; /* Make it round */
+//     outline: none;     /* Remove outline */
+//     cursor: pointer;   /* Change cursor on hover */
+//     position: relative; /* Allow positioning of the pseudo-element */
+//     top: 4px;
+// }
+
+// .category-selection input[type="radio"]:checked {
+//     background-color: black; /* Change background color when checked */
+// }
+
+// .category-selection input[type="radio"]:checked::before {
+//     content: '';
+//     position: absolute;
+//     top: 2px; /* Adjust position of the inner dot */
+//     left: 2px; /* Adjust position of the inner dot */
+//     width: 12px; /* Inner dot size */
+//     height: 12px; /* Inner dot size */
+//     background-color: white; /* Inner dot color */
+//     border-radius: 50%; /* Make it round */
+// }
